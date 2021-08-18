@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Un pequeño formulario donde el usuario dejará sus dudas o comentarios para que los pueda responder">
+    <meta name="keywords" content="contactame, consulta, deja tu duda, tu consulta no molesta, deja tu mensaje,escribime">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>CONTACTO</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="../logo/lukasmarks(1).png" class="logo_size" /><!--logo-->
+    </header>
+
+<main class="container px-4 px-lg-5 ">
+
+    <h4 class=" display-3 span1 text-center">Tu Consulta</h4><!--Formulario de consulta-->
+
+    <form action="GET" class="row" class="col-12"></form>
+
+    <div class="row">
+
+            <div class="col-md-4 g-0">
+                <input type="text" class="form-control" placeholder="NOMBRE" data-sb-validations="required,nombre" aria-label="NOMBRE">
+            </div>
+
+    </div>
+
+    <div class="row">
+
+                <div class="col-md-4 g-0">
+                    <input type="email" class="form-control" placeholder="EMAIL" data-sb-validations="required,email" id="inputEmail4">
+                </div>
+
+    </div>
+
+        <div>
+
+            <div class="col-md-6 g-0">
+                <label for="">¿CÓMO NOS CONOCIO?</label>
+            </div>
+            <select class="form-select w-50" aria-label="floating label select example">
+                <option value="1">FACEBOOK</option>
+                <option value="2">TWITTER</option>
+                <option value="3">INSTAGRAM</option>
+            </select>
+
+        </div>
+
+        <div class="form-floating">
+
+            <div>
+                <label for=""> TU CONSULTA NO MOLESTA</label>
+            </div>
+
+            <div class="col-6">
+                <textarea class="form-control" id="floatingTextarea2" style="height: 10rem"></textarea>
+            </div>
+        </div>
+
+        <div>
+            <button class="btn-pm" type="reset">RESET</button>
+            <button class="btn-mk" type="submit">ENVIAR</button>
+        </div>
+
+    </form>
+
+</main>
+
+    <div>
+        <button class="btn-cm"><a href="../index.html">VOLVER AL INICIO</a></button>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

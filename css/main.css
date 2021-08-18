@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(to top, #2f0059, #6F1E51, #833471);
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  margin: 20px 20px; }
+
+.Titulos {
+  color: green;
+  font-family: "Lobster", cursive; }
+
+table thead {
+  background-color: #0ca848; }
+
+table tbody tr td {
+  background-color: #0ca848;
+  font-weight: lighter;
+  border: black 3px solid; }
+
+.div_footer {
+  font-style: italic;
+  font-size: 30px; }
+
+.span {
+  color: magenta; }
+
+.navbar__colorbg {
+  background-color: green; }
+
+.consulta__titulo {
+  text-align: center;
+  color: green; }
+
+.redes__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 400px;
+  height: 400px; }
+
+.footer__bg {
+  background: linear-gradient(to top, #2d6a4f, #40916c, #52b788); }
+
+.logo_size2, .borde_logos {
+  width: 350px;
+  height: 350px; }
+
+.borde_logos {
+  border: white 4px solid; }
+
+.tamanio-16px {
+  font-size: 16px;
+  font-style: italic;
+  color: turquoise; }
+
+.tamanio-18px {
+  font-size: 18px;
+  font-style: italic;
+  color: turquoise; }
+
+body {
+  font-size: 20px; }
+
+.btn-pm {
+  background-color: #faa307;
+  border-radius: 20px; }
+
+.btn-mk {
+  background-color: #FF006E;
+  border-radius: 20px; }
+
+.btn-cm {
+  background-color: #70e000;
+  border-radius: 20px; }
+
+.btn-seo {
+  background-color: #9381ff;
+  border-radius: 20px; }
