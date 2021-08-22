@@ -48,6 +48,14 @@ span{
 }
 
 /* Estilos para el formulario */
+.form{
+  width: 450px;
+  margin: auto;
+  background: rgb(14,164,129,087);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
 input{
   margin: 10px;
 }
