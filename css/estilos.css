@@ -6,6 +6,8 @@ html{
 *{
   border-radius: 10px;
   box-sizing: border;
+  margin: 0;
+  padding: 0;
 }
 /* estilos del body */
 body {
@@ -143,7 +145,7 @@ animation: text-pop-up-tr 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2 both;
 
 /* Color de Titulos */
 .Titulos{
-    color: #d4a373;
+    color: #ff9f1a;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 24px;
