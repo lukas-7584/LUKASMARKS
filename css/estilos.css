@@ -11,11 +11,11 @@ html{
 }
 /* estilos del body */
 body {
-  background:linear-gradient(to top, #2f0059, #6F1E51, #833471 );
+  background:linear-gradient(to bottom, #6F1E51, #833471);
   font-size:1.3rem;
   line-height: 1.5;
   font-family:'Bebas Neue', cursive;
-  color: white;
+  color:white;
   margin: 20px 20px;}
 
 /* Formato para imagenes */
