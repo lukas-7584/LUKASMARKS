@@ -27,7 +27,6 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar__colorbg" >
 
     <div class="container-fluid colorbg ">
-        <a class="navbar-brand" href="#"><img class="logo_size " src="../logo/lukasmarks(1).png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,43 +35,45 @@
         <ul class="navbar-nav justify-content-center w-100 colorbg ">
 
             <li class="nav-item">
-            <a class="nav-link active mx-2" aria-current="page" href="../index.html">HOME</a>
+            <a class="nav-link active mx-4" aria-current="page" href="../index.html">HOME</a>
             </li> 
 
-            <li class="nav-item">
-            <a class="nav-link active mx-2" aria-current="page" href="../pages/mk.html">EL MARKETING</a>
-            </li>
-
-            <li  class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../pages/plandemarketing.html">PLAN DE MARKETING</a>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link active mx-2" aria-current="page" href="../pages/seo.html">SEO</a>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link active mx-2" aria-current="page" href="../pages/sem.html">SEM</a>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link active mx-2 " href="../pages/objetivosSmart.html">OBJETIVOS SMART</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link  active dropdown-toggle mx-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">EL MARKETING</a>
+                <ul class="dropdown-menu navbar__colorbg" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../pages/mk.html">QUÉ ES EL MARKETING DIGITAL</li>
+                    <li><a class="dropdown-item" href="../pages/plandemarketing.html">PLAN DE MARKETING</a></li>
+                </ul>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle mx-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">COMMUNITY MANAGER</a>
+                <a class="nav-link  active dropdown-toggle mx-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">TRAFICO ORGANICO</a>
+                <ul class="dropdown-menu navbar__colorbg" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="../pages/seo.html">SEO</a></li>
+                    <li><a class="dropdown-item" href="../pagES/sem.html">SEM</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link active mx-3 " href="../pages/objetivosSmart.html">OBJETIVOS SMART</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle mx-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">COMMUNITY MANAGER</a>
                     <ul class="dropdown-menu navbar__colorbg" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="../pages/communitymanager.html">¿QUIEN ES?</a></li>
                         <li><a class="dropdown-item" href="../pages/requisitos.html">REQUISITOS</a></li>
                         <li><a class="dropdown-item" href="../pages/redessociales.html">REDES SOCIALES</a></li>
-                    /ul>
+                    </ul>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link active mx-4" aria-current="page" href="../pages/indexcontacto.html">CONTACTO</a>
+                </li>
 
         </ul>
 
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../pages/indexcontacto.html">CONTACTO</a>
-            </li> 
+
 
         </div>
 
@@ -85,27 +86,33 @@
 
 <!-- CUERPO DE LA SECCIÓN---- -->
 
-<main  class="container mt-4">
-    <h3 class="text-shadow-drop-right ">¿QUÉ ES EL SEM?</h3> <!--Titulo de la quinta seeción-->
-        <p >
-            El <span class="span">Search Engine Marketing (SEM),</span>  es el conjunto de herramientas de marketing digital que sirve para campañas y publicar anuncios pagos en los buscadores, ayuda a optimizar la visibilidad de la pagina web a través de los motores de búsqueda.
-        </p>
-        <p>
-            Cuando hablamos de <span class="span">Search Engine Marketing (SEM),</span>  normalmente nos referimos a campañas de anuncios de pago en buscadores aunque realmente,siendo futuristas, el "SEM" se refiere a cualquier acción de Marqueting dentro de los buscadores,sea de pago o no.
-        </p>
-    <h3 class="tracking-in-expand mt-4">¿CÓMO FUNCIONA?</h3>
-        <p>
-            Como primera medida deberemos ingresar al GOOGLE ADS y crear una cuenta, después tendremos que comprar las palabras y oraciones por las que nuestros clientes o posibles clientes nos buscaran.Por ultimo deberemos crear la estructura de nuestros anuncioes con mensajes cortos y llamativos, pero la plataforma tiene un limite de caracteres:
-                    <ol>
-                        <li>TITULOS:30 CARACTERES</li>
-                        <li>SUBTITULOS: 30 CARACTERES</li>
-                        <li>DESCRIPCIÓN: 80 CARACTERES</li>
-                    </ol>
-        </p>
+<main  class="container">
 
-    <div class= "col-12 col-sm-12 text-center carru_sel my-5">
-        <video class="carru_sel borde_logos" src="../imagenes/videos/¿CÓMO FUNCIONA  SEM .mp4" controls> ¿Cómo Funciona Sem?</video>
+    <div class="row my-5">
+
+            <h3 class="text-shadow-drop-right ">¿QUÉ ES EL SEM?</h3> <!--Titulo de la quinta seeción-->
+                <p >
+                    El <span class="span">Search Engine Marketing (SEM),</span>  es el conjunto de herramientas de marketing digital que sirve para campañas y publicar anuncios pagos en los buscadores, ayuda a optimizar la visibilidad de la pagina web a través de los motores de búsqueda.
+                </p>
+                <p>
+                    Cuando hablamos de <span class="span">Search Engine Marketing (SEM),</span>  normalmente nos referimos a campañas de anuncios de pago en buscadores aunque realmente,siendo futuristas, el "SEM" se refiere a cualquier acción de Marqueting dentro de los buscadores,sea de pago o no.
+                </p>
+            <h3 class="tracking-in-expand mt-4">¿CÓMO FUNCIONA?</h3>
+                <p>
+                    Como primera medida deberemos ingresar al GOOGLE ADS y crear una cuenta, después tendremos que comprar las palabras y oraciones por las que nuestros clientes o posibles clientes nos buscaran.Por ultimo deberemos crear la estructura de nuestros anuncioes con mensajes cortos y llamativos, pero la plataforma tiene un limite de caracteres:
+                            <ol>
+                                <li>TITULOS:30 CARACTERES</li>
+                                <li>SUBTITULOS: 30 CARACTERES</li>
+                                <li>DESCRIPCIÓN: 80 CARACTERES</li>
+                            </ol>
+                </p>
+
+            <div class= "col-12 col-sm-12 text-center carru_sel my-5">
+                <video class="carru_sel borde_logos" src="../imagenes/videos/¿CÓMO FUNCIONA  SEM .mp4" controls> ¿Cómo Funciona Sem?</video>
+            </div>
+
     </div>
+
 </main>
 
 <!-- FOOTER---- -->

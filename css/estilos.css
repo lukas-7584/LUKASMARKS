@@ -140,8 +140,9 @@ animation: text-pop-up-tr 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2 both;
 }
 
 .logo_size2{
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
+  border-radius: 90px;
 }
 
 /* Color de Titulos */
