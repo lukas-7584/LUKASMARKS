@@ -55,7 +55,7 @@ span{
 .form{
   width: 450px;
   margin: auto;
-  background: rgb(14,164,129,087);
+  background: #b8b8ff;
   box-sizing: border-box;
   border-radius: 10px;
 }
