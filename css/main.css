@@ -25,9 +25,17 @@ body {
 li ul a {
   font-size: 1.5rem; }
 
-.Titulos {
+.titulos_principal {
   color: green;
-  font-family: "Lobster", cursive; }
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Lobster', cursive; }
+
+.sub_titulo {
+  color: indigo;
+  text-align: start;
+  font-family: 'Lobster', cursive;
+  font-size: 24px; }
 
 .div_footer {
   font-style: italic;
@@ -48,6 +56,15 @@ table tbody tr td {
   box-sizing: border-box;
   border-radius: 10px; }
 
+.logo_size {
+  width: 75px;
+  height: 75px; }
+
+.logo_size2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 90px; }
+
 .redes__img {
   margin-left: auto;
   margin-right: auto;
@@ -65,21 +82,3 @@ table tbody tr td {
   align-content: space-around;
   justify-content: space-around;
   padding: 10px; }
-
-.logo_size {
-  width: 75px;
-  height: 75px; }
-
-.logo_size2 {
-  width: 250px;
-  height: 250px;
-  border-radius: 90px; }
-
-.Titulos {
-  color: #ff9f1a;
-  text-align: center;
-  font-family: 'Lobster', cursive;
-  font-size: 24px; }
-
-li ul a {
-  font-size: 1.5rem; }

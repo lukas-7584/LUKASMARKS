@@ -32,3 +32,18 @@ body {
     li ul a{
         font-size: 1.5rem;
     }
+
+    .titulos_principal{
+        color: $colorTitulos;
+        text-align: center;
+        font-size: 24px;
+        font-family:'Lobster', cursive;
+
+    }
+    
+    .sub_titulo{
+        color: indigo;
+        text-align: start;
+        font-family:'Lobster', cursive;
+        font-size: 24px;
+    }
