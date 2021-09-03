@@ -4,23 +4,29 @@ html {
 
 body {
   background: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
   font-family: "Roboto Slab", serif;
   color: black; }
 
 .navbar__colorbg {
-  background-color: #b8b8ff; }
+  background-color: #b8b8ff;
+  font-size: 1.8rem; }
 
 .logo_size2 {
-  width: 350px;
-  height: 350px; }
+  width: 22rem;
+  height: 22rem;
+  border-radius: 5rem; }
+
+.logo_size {
+  width: 8rem;
+  height: 8rem; }
 
 .carru_sel {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
-  width: 80%; }
+  margin-bottom: 1.5rem;
+  width: 75%; }
 
 li ul a {
   font-size: 1.5rem; }
@@ -28,18 +34,29 @@ li ul a {
 .titulos_principal {
   color: green;
   text-align: center;
-  font-size: 24px;
+  font-size: 6rem;
   font-family: 'Lobster', cursive; }
 
 .sub_titulo {
   color: indigo;
   text-align: start;
   font-family: 'Lobster', cursive;
-  font-size: 24px; }
+  font-size: 4rem; }
+
+.link_color {
+  color: #ED7D31;
+  font-weight: bold;
+  font-size: 2rem; }
+
+.vi_deo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  width: 100%; }
 
 .div_footer {
   font-style: italic;
-  font-size: 30px; }
+  font-size: 3rem; }
 
 table thead {
   background-color: #0ca848; }
@@ -50,35 +67,12 @@ table tbody tr td {
   border: black 3px solid; }
 
 .form {
-  width: 450px;
+  width: 28rem;
   margin: auto;
   background: #b8b8ff;
   box-sizing: border-box;
-  border-radius: 10px; }
+  border-radius: 0.8rem;
+  font-size: 2rem; }
 
-.logo_size {
-  width: 75px;
-  height: 75px; }
-
-.logo_size2 {
-  width: 250px;
-  height: 250px;
-  border-radius: 90px; }
-
-.redes__img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  width: 400px;
-  height: 400px; }
-
-.linkcolor {
-  color: magenta;
-  font-weight: bold; }
-
-.img-extraf {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-around;
-  justify-content: space-around;
-  padding: 10px; }
+.bt_bg {
+  background-color: #ED7D31; }

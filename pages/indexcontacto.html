@@ -78,19 +78,19 @@
 
 <!--  FIN DEL HEADER------ CON LA BARRA DE NAVEGACIÓN -->
 
-<main class="container form w-100">
+<main class="container form w-75">
 
     <section class="row my-5 ">
 
         <div class="col-12 ">
 
-            <h1 class=" display-3 span1 text-center">Tu Consulta</h1><!--Formulario de consulta-->
+            <h1 class="sub_titulo  text-center">Tu Consulta</h1><!--Formulario de consulta-->
 
                 <form action="GET" class="row" class="col-12 ">
 
                 <div class="row my-4">
 
-                        <div class="col-md-6 g-0 ">
+                        <div class="col-md-6 mx-auto">
                             <input type="text" class="form-control" placeholder="NOMBRE" data-sb-validations="required,nombre" aria-label="NOMBRE">
                         </div>
 
@@ -98,7 +98,7 @@
 
                 <div class="row">
 
-                            <div class="col-md-6 g-0">
+                            <div class="col-md-6 mx-auto">
                                 <input type="email" class="form-control" placeholder="EMAIL" data-sb-validations="required,email" id="inputEmail4">
                             </div>
 
@@ -106,10 +106,10 @@
 
                     <div>
 
-                        <div class="col-md-6 g-0 my-4">
-                            <label for="">¿CÓMO NOS CONOCIO?</label>
+                        <div class="col-md-6 my-4 mx-auto text-center">
+                            <label for="" class="my-3">¿CÓMO NOS CONOCIO?</label>
                         </div>
-                        <select class="form-select w-50" aria-label="floating label select example">
+                        <select class="form-select w-50 mx-auto  mb-5" aria-label="floating label select example">
                             <option value="1">FACEBOOK</option>
                             <option value="2">TWITTER</option>
                             <option value="3">INSTAGRAM</option>
@@ -117,20 +117,19 @@
 
                     </div>
 
-                    <div class="form-floating my-4">
-
+                    <div class="form-floating my-5 text-center ">
                         <div>
-                            <label for=""> TU CONSULTA NO MOLESTA</label>
+                            <label for="" class="my-5"> TU CONSULTA NO MOLESTA</label>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-md-6 mx-auto">
                             <textarea class="form-control" id="floatingTextarea2" style="height: 10rem"></textarea>
                         </div>
                     </div>
 
                     <div class="my-4 mx-3">
-                        <button  type="reset">RESET</button>
-                        <button  type="submit">ENVIAR</button>
+
+                        <button type="submit" class="bt_bg">ENVIAR</button>
                     </div>
 
                 </form>

@@ -6,27 +6,34 @@ html{
 
 body {
     background:$colorFondo;
-    font-size:1.5rem;
+    font-size:2rem;
     line-height: 1.5;
     font-family:$fuentePrincipal;
     color:black;
-    // margin: 20px 20px;
+
 }
 
 .navbar__colorbg{
     background-color:#b8b8ff;
+    font-size: 1.8rem;
 }
 
 .logo_size2{
-    width: 350px;
-    height: 350px;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 5rem;
+}
+
+.logo_size{
+    width: 8rem;
+    height: 8rem;
 }
 
 .carru_sel{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    width: 80%;
+    margin-bottom: 1.5rem;
+    width: 75%;
     }
 
     li ul a{
@@ -36,7 +43,7 @@ body {
     .titulos_principal{
         color: $colorTitulos;
         text-align: center;
-        font-size: 24px;
+        font-size: 6rem;
         font-family:'Lobster', cursive;
 
     }
@@ -45,5 +52,18 @@ body {
         color: indigo;
         text-align: start;
         font-family:'Lobster', cursive;
-        font-size: 24px;
+        font-size: 4rem;
     }
+
+    .link_color{
+        color: $resaltar;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .vi_deo{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        }
