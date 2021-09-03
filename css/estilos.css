@@ -1,68 +1,3 @@
-/* Seteo del html */
-html{
-  scroll-behavior: smooth;
-}
-
-*{
-  border-radius: 10px;
-  box-sizing: border;
-  margin: 0;
-  padding: 0;
-}
-/* estilos del body */
-body {
-  background:white;
-  font-size:1.3rem;
-  line-height: 1.5;
-  font-family:"Roboto Slab", serif;
-  color:black;
-  margin: 20px 20px;}
-
-/* Formato para imagenes */
-.ciclo{
-  margin:60px 250px 60px 350px;
-  width: 350px;
-  height: 350px;
-
-}
-/* Estilo para  el color de los links */
-.linkcolor{
-  color: magenta;
-  font-weight: bold;
-}
-/* Estilos para el footer */
-.img-extraf{
-  display: flex;
-  flex-flow: row wrap;
-  align-content:space-around;
-  justify-content:space-around;
-  padding:10px; 
-
-} 
-
-
-/* Para el del ciclo del seo */
-span{ 
-  font-style: italic;
-}
-
-.span1{
-  font-style: italic;
-  color: coral;
-}
-
-/* Estilos para el formulario */
-.form{
-  width: 450px;
-  margin: auto;
-  background: #b8b8ff;
-  box-sizing: border-box;
-  border-radius: 10px;
-}
-
-input{
-  margin: 10px;
-}
 
 /* Animaciones y transiciones de la segunda sección*/
 .tracking-in-expand {
@@ -133,27 +68,7 @@ animation: text-pop-up-tr 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2 both;
     }
     
 
-/* Tamaño logo */
-.logo_size{
-  width: 75px;
-  height: 75px;
-}
 
-.logo_size2{
-  width: 250px;
-  height: 250px;
-  border-radius: 90px;
-}
-
-/* Color de Titulos */
-.Titulos{
-    color: #ff9f1a;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
-}
-
-/* Estilo para el titulo del index */
 
 .text-shadow-drop-right {
 animation: text-shadow-drop-right 0.6s infinite both;
@@ -171,32 +86,3 @@ animation: text-shadow-drop-right 0.6s infinite both;
   }
 }
 
-/*  Estilos para las imagnes del carrusel */
-.carru_sel{
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 15px;
-width: 80%;
-}
-
-/* TITULO DEL FORMULARIO */
-
-.Consulta{
-  text-align: center;
-  color: green;
-}
-
-/* Estilos para la tabla */
-table thead{
-  background-color: rgb(12, 168, 72);
-  
-}
-table tbody tr td {
-  background-color: rgb(12, 168, 72);
-  font-weight: lighter;
-  border:black 3px solid;}
-
-.margenes{
-  margin-top: 25px;
-  margin-bottom: 25px;
-}

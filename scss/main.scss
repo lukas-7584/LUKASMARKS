@@ -1,57 +1,18 @@
+
 //variables
 $fuenteTitulos:'Lobster', cursive;
 $fuentePrincipal:"Roboto Slab", serif;
-
 $colorTitulos: green;
 $colorFondo:white;
 $resaltar:#ED7D31;
 
+@import 'index';
+@import 'titulos';
+@import 'footer';
+@import 'table-plandemarketing';
+@import 'contacto';
 
 
-body {
-    background:$colorFondo;
-    font-size:20px;
-    line-height: 1.5;
-    font-family:$fuentePrincipal;
-    color: white;
-    margin: 20px 20px;
-}
-
-    .Titulos{
-        color: $colorTitulos;
-        font-family: $fuenteTitulos;
-    }
-    
-
-table{
-        thead{
-        background-color: rgb(12, 168, 72);
-        
-    }
-        tbody tr td {
-        background-color: rgb(12, 168, 72);
-        font-weight: lighter;
-        border:black 3px solid;}
-}
-
-.div_footer{
-    font-style: italic;
-    font-size: 30px;
-
-}
-
-.span{
-    color: $resaltar;
-    
-}
-.navbar__colorbg{
-    background-color:#b8b8ff;
-}
-
-.consulta__titulo{
-        text-align: center;
-        color: green;
-}
 
 .redes__img{
     margin-left: auto;
@@ -61,53 +22,36 @@ table{
     height:400px;
 }
 
-.footer__bg{
-    background: linear-gradient(to top,#2d6a4f,#40916c,#52b788);
+.linkcolor{
+    color: magenta;
+    font-weight: bold;
 }
 
-//Extend
+.img-extraf{
+    display: flex;
+    flex-flow: row wrap;
+    align-content:space-around;
+    justify-content:space-around;
+    padding:10px; 
+}
+.logo_size{
+    width: 75px;
+    height: 75px;
+}
+
 .logo_size2{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
+    border-radius: 90px;
 }
 
-.borde_logos{
-    @extend .logo_size2;
-    border: white 4px solid;
+.Titulos{
+    color: #ff9f1a;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
 }
 
-//Each
-@each $size in 16px 18px {
-    .tamanio-#{$size}{
-        font-size: $size;
-        font-style: italic;
-        color:turquoise;
-    }
-}
-
-// Condicionales
-
-$fuente:$fuentePrincipal;
-
-body{
-
-@if($fuente== $fuentePrincipal){
-    font-size: 20px;
-}@else if($fuente== Arial, Helvetica, sans-serif){
-    font-size:30px;
-}@else{
-    font: size 25px;
-}
-
-}
-
-//mapeo
-
-$fondo:(pm:#faa307, mk:#FF006E,cm:#70e000,seo:#9381ff);
-
-@each $color, $back in $fondo {
-    .btn-#{$color}{
-        background-color: $back;
-        border-radius: 20px;
-    }
+li ul a{
+    font-size: 1.5rem;
 }

@@ -1,14 +1,37 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
 body {
   background: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-family: "Roboto Slab", serif;
-  color: white;
-  margin: 20px 20px; }
+  color: black; }
+
+.navbar__colorbg {
+  background-color: #b8b8ff; }
+
+.logo_size2 {
+  width: 350px;
+  height: 350px; }
+
+.carru_sel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 80%; }
+
+li ul a {
+  font-size: 1.5rem; }
 
 .Titulos {
   color: green;
   font-family: "Lobster", cursive; }
+
+.div_footer {
+  font-style: italic;
+  font-size: 30px; }
 
 table thead {
   background-color: #0ca848; }
@@ -18,19 +41,12 @@ table tbody tr td {
   font-weight: lighter;
   border: black 3px solid; }
 
-.div_footer {
-  font-style: italic;
-  font-size: 30px; }
-
-.span {
-  color: #ED7D31; }
-
-.navbar__colorbg {
-  background-color: #b8b8ff; }
-
-.consulta__titulo {
-  text-align: center;
-  color: green; }
+.form {
+  width: 450px;
+  margin: auto;
+  background: #b8b8ff;
+  box-sizing: border-box;
+  border-radius: 10px; }
 
 .redes__img {
   margin-left: auto;
@@ -39,41 +55,31 @@ table tbody tr td {
   width: 400px;
   height: 400px; }
 
-.footer__bg {
-  background: linear-gradient(to top, #2d6a4f, #40916c, #52b788); }
+.linkcolor {
+  color: magenta;
+  font-weight: bold; }
 
-.logo_size2, .borde_logos {
-  width: 350px;
-  height: 350px; }
+.img-extraf {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  padding: 10px; }
 
-.borde_logos {
-  border: white 4px solid; }
+.logo_size {
+  width: 75px;
+  height: 75px; }
 
-.tamanio-16px {
-  font-size: 16px;
-  font-style: italic;
-  color: turquoise; }
+.logo_size2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 90px; }
 
-.tamanio-18px {
-  font-size: 18px;
-  font-style: italic;
-  color: turquoise; }
+.Titulos {
+  color: #ff9f1a;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 24px; }
 
-body {
-  font-size: 20px; }
-
-.btn-pm {
-  background-color: #faa307;
-  border-radius: 20px; }
-
-.btn-mk {
-  background-color: #FF006E;
-  border-radius: 20px; }
-
-.btn-cm {
-  background-color: #70e000;
-  border-radius: 20px; }
-
-.btn-seo {
-  background-color: #9381ff;
-  border-radius: 20px; }
+li ul a {
+  font-size: 1.5rem; }
