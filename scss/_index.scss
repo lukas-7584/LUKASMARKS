@@ -18,16 +18,7 @@ body {
     font-size: 1.8rem;
 }
 
-.logo_size2{
-    width: 22rem;
-    height: 22rem;
-    border-radius: 5rem;
-}
 
-.logo_size{
-    width: 8rem;
-    height: 8rem;
-}
 
 .carru_sel{
     margin-left: auto;
@@ -40,20 +31,6 @@ body {
         font-size: 1.5rem;
     }
 
-    .titulos_principal{
-        color: $colorTitulos;
-        text-align: center;
-        font-size: 6rem;
-        font-family:'Lobster', cursive;
-
-    }
-    
-    .sub_titulo{
-        color: indigo;
-        text-align: start;
-        font-family:'Lobster', cursive;
-        font-size: 4rem;
-    }
 
     .link_color{
         color: $resaltar;
